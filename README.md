@@ -10,13 +10,13 @@ The assignment involves both server and client-side components that need to inte
 
 ### **Mandatory Requirements**  
 - **Pendulum Simulation in Node.js**  
-  - [ ] Implement a simple 1D pendulum simulation with configurable parameters: initial angle, mass, and string length.
+  - [ ] Implement a simple 2D pendulum simulation with configurable parameters: initial angle, mass, and string length.
   - [ ] Run **five instances** of the pendulum.  
 
 - **Neighbor Communication**  
   - [ ] Make each pendulum aware of its neighbors and monitor their positions.  
-  - [ ] Define a threshold for proximity; if neighbors get too close, send a **STOP message** to all instances.  
-  - [ ] After a STOP, each pendulum waits 5 seconds and only **restarts** once all instances receive five **RESTART messages**.  
+  - [ ] Define a threshold for collisions; when a collision is detected, send a **STOP message** to all instances.  
+  - [ ] After a STOP, the simulation should halt. The pendulum sends a **RESTART message** and waits until all instances receive **RESTART messages** from all other instances, at which point each pendulum waits 5 seconds and **restarts**.  
 
 - **Web-Based UI**  
   - [ ] Build a UI using React to visualize the pendulums.  
@@ -24,11 +24,12 @@ The assignment involves both server and client-side components that need to inte
   - [ ] Ensure the UI periodically updates pendulum positions (e.g., every few frames).  
 
 ## **Bonus Points**  
-- [ ] Provide an **intuitive user experience** for configuring pendulums (starting angle, mass, string length).  
-- [ ] Use **WebSockets** for real-time UI updates instead of polling.  
+- [ ] Provide an **intuitive user experience** for configuring pendulums (starting angle, mass, string length, string anchor).  
 - [ ] Use TypeScript for both the frontend and the backend.
+- [ ] Add wind to the simulation.
 - [ ] Run the whole stack with one single command.
 - [ ] Write a few **unit tests** for the REST API and key logic in the Node.js code.
+- [ ] Anything else you'd like to impress us with! Have fun!
 
 ## **Submission**  
 - [ ] Share your solution on **GitHub**.  
