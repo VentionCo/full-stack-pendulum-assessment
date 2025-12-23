@@ -19,7 +19,7 @@ The assignment involves both server and client-side components that need to inte
   - [ ] After a STOP, the simulation should halt. The pendulum sends a **RESTART message** and waits until all instances receive **RESTART messages** from all other instances, at which point each pendulum waits 5 seconds and **restarts**.  
 
 - **Web-Based UI**  
-  - [ ] Build a UI using React to visualize the pendulums.  
+  - [ ] Build a UI using React to visualize and configure the pendulums.  
   - [ ] Add basic simulation controls: start, pause, and stop.  
   - [ ] Ensure the UI periodically updates pendulum positions (e.g., every few frames).  
 
