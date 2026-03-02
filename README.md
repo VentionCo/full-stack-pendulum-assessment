@@ -9,9 +9,9 @@ The assignment involves both server and client-side components that need to inte
 ## **Checklist of Requirements and Bonus Points**  
 
 ### **Mandatory Requirements**  
-- **Pendulum Simulation in Node.js**  
-  - [ ] Implement a simple 2D pendulum simulation with configurable parameters: initial angle, mass, and string length.
-  - [ ] Run **five instances** of the pendulum.  
+- **Server-side pendulum simulation using Node.js**  
+  - [ ] Implement a Node.js server which runs a single pendulum simulation with configurable parameters for: initial angle, mass, and string length.
+  - [ ] Run **five instances** of the pendulum simulation.
 
 - **Neighbor Communication**  
   - [ ] Make each pendulum aware of its neighbors and monitor their positions.  
@@ -19,7 +19,7 @@ The assignment involves both server and client-side components that need to inte
   - [ ] After a STOP, the simulation should halt. The pendulum sends a **RESTART message** and waits until all instances receive **RESTART messages** from all other instances, at which point each pendulum waits 5 seconds and **restarts**.  
 
 - **Web-Based UI**  
-  - [ ] Build a UI using React to visualize and configure the pendulums.  
+  - [ ] Build a UI using React to render and configure the pendulums.  
   - [ ] Add basic simulation controls: start, pause, and stop.  
   - [ ] Ensure the UI periodically updates pendulum positions (e.g., every few frames).  
 
