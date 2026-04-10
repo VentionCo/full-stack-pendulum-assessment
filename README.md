@@ -1,5 +1,5 @@
 ## **Problem Statement**  
-You are tasked with creating a simple pendulum simulation in Node.js, which can be visualized and controlled through a React UI. 
+You are tasked with building a **distributed pendulum simulation** in Node.js, which can be visualized and controlled through a React UI. 
 The goal of this exercise is to evaluate your skills in server-side programming, API design, frontend development, and distributed systems coordination. 
 The assignment involves both server and client-side components that need to interact seamlessly.
 
@@ -11,7 +11,7 @@ The assignment involves both server and client-side components that need to inte
 ### **Mandatory Requirements**  
 - **Server-side pendulum simulation using Node.js**  
   - [ ] Implement a Node.js server which runs a single pendulum simulation with configurable parameters for: initial angle, mass, and string length.
-  - [ ] Run **five instances** of the pendulum simulation.
+  - [ ] Run **five separate instances of this server**, so the full system is **composed of 5 servers**, each responsible for its own pendulum.
 
 - **Neighbor Communication**  
   - [ ] Make each pendulum aware of its neighbors and monitor their positions.  
