@@ -8,10 +8,10 @@ The assignment involves both server and client-side components that need to inte
 ## **Evaluation Criteria**  
 We are evaluating both the final result and the engineering decisions behind it.
 
-#### Scalability and Extensibility
+#### Simplicity
 The solution should be easy to understand, run, and maintain. Avoid unnecessary complexity and abstractions.
 
-#### Simplicity
+#### Scalability and Extensibility
 Although the assignment requires five servers, the design should not depend heavily on that exact number. Adding new instances, changing the system configuration, or introducing new features should require minimal changes.
 
 #### Engineering Intent
