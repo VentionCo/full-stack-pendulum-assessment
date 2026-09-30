@@ -47,7 +47,7 @@ We will also consider code readability, separation of concerns, API design, erro
 - [ ] Use TypeScript for both the frontend and the backend
 - [ ] Add wind to the simulation
 - [ ] Allow the entire stack to run with a single command
-- [ ] Write unit tests for the REST API and important Node.js logic
+- [ ] Write unit tests for the API and important Node.js logic
 - [ ] Add anything else that demonstrates your skills and engineering judgment
 
 ## **Submission**  
